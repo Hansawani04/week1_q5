@@ -1,0 +1,56 @@
+Sure, I'll outline the document structure for you based on the code provided:
+
+Calculator Program Analysis
+
+1. Introduction
+
+   - Brief overview of the calculator program.
+   - Purpose: Perform basic arithmetic operations based on user input.
+
+2. Code Structure
+
+   Main Function
+     - Overview: Entry point of the program.
+     - Responsibilities: Menu display, user input handling, operation execution.
+     - Flow: Uses `switch` statement to select and perform operations based on user input.
+
+   Switch Statement Cases
+     - Case 1: Addition
+       - Description: Handles addition operation.
+       - Steps: Prompts user for two numbers, performs addition, and displays result.
+
+     - Case 2: Subtraction
+       - Description: Handles subtraction operation.
+       - Steps: Prompts user for two numbers, performs subtraction, and displays result.
+
+     - Case 3: Multiplication
+       - Description: Handles multiplication operation.
+       - Steps: Prompts user for two numbers, performs multiplication, and displays result.
+
+     - Case 4: Division
+       - Description: Handles division operation.
+       - Steps: Prompts user for two numbers, performs division, and displays result.
+       
+     - Default Case
+       - Description: Executes when user input is invalid.
+       - Steps: Informs user to enter a correct menu option (1-4).
+
+3. Functionality
+
+   User Input Handling
+     - Uses `scanf` to get user choice and operands.
+     - `%d` for menu choice and `%f` for floating-point numbers.
+
+   Arithmetic Operations
+     - Addition: `result = num1 + num2;`
+     - Subtraction: `result = num1 - num2;`
+     - Multiplication: `result = num1 * num2;`
+     - Division: `result = num1 / num2;`
+
+4. Conclusion
+
+   - Summary of the program's structure and functionality.
+   - Mention of error handling (default case) and data types used (int, float).
+
+
+This structure should help you create a Word document outlining the analysis of the calculator program, focusing on its structure, functionality, and how each part contributes to the overall functionality of the program.
